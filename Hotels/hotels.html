@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chennai Hotels - Listings</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background-color: rgb(0, 102, 204);
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      header div {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      header nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      header nav a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #0066cc, rgb(0, 153, 255));
+        color: white;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .hotel-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 20px;
+      }
+
+      .hotel-card {
+        background: white;
+        width: 300px;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .hotel-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .hotel-card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .hotel-card h3 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+        color: #333;
+      }
+
+      .hotel-card p {
+        margin: 5px 0;
+        color: #555;
+        font-size: 0.95rem;
+      }
+
+      .hotel-card button {
+        background: #4caf50;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .hotel-card button:hover {
+        background: #45a049;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        🏨 Chennai Stays</div>
+      <nav>
+        <nav>
+        <a href="/index.html">Home</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="/pages/About Us/about.html">About</a>
+        <a href="/pages/About Us/contact.html">Contact</a>
+        <a href="./home.html">Login</a>
+      </nav>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome !<h1>
+      <p>Ready to explore hotels in Chennai</p>
+    </section>
+
+    <section class="hotel-list">
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 1.jpg" alt="Hotel Green Park">
+        <h3>Hotel Green Park</h3>
+        <p>₹1200/night</p>
+        <p>AC | WiFi | Pool</p>
+        <a href="Hotel Green park .html">
+          <button class="btn">View Details</button>
+        </a>
+      </div>
+
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 2.jpg" alt="The Residency Towers" />
+        <h3>The Residency Towers</h3>
+        <p>₹2500/night</p>
+        <p>AC | WiFi | Pool | Breakfast</p>
+         <a href="The Residency Towers.html">
+         <button class="btn">View Details</button>
+      </a>
+         </div>
+      </div>
+
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 3.jpg" alt="Taj Club House" />
+        <h3>Taj Club House</h3>
+        <p>₹4500/night</p>
+        <p>Luxury | AC | WiFi | Spa</p>
+        <a href="Taj Club House.html">
+            <button>View Details</button>
+        </a>
+      </div>
+
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 4.jpg" alt="Hotel Pearl International" />
+        <h3>Hotel Pearl International</h3>
+        <p>₹999/night</p>
+        <p>Budget | AC | Free Parking</p>
+        <a href="Hotel Pearl International .html">
+            <button>View Details</button>
+            </a>
+      </div>
+
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 5.jpg" alt="ITC Grand Chola" />
+        <h3>ITC Grand Chola</h3>
+        <p>₹6000/night</p>
+        <p>Luxury | AC | WiFi | Pool | Spa</p>
+        <a href="ITC Grand Chola .html">
+            <button>View Details</button>
+            </a>
+      </div>
+
+      <div class="hotel-card">
+        <img src="/Assets/images/hotel 6.jpg" alt="Park Hyatt Chennai" />
+        <h3>Park Hyatt Chennai</h3>
+        <p>₹5500/night</p>
+        <p>Luxury | AC | WiFi | Fine Dining</p>
+         <a href="Park Hyatt Chennai.html">
+        <button>View Details</button>
+         </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 HotelFinder Chennai. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
